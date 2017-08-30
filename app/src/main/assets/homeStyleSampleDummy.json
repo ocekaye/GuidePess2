@@ -1,0 +1,19 @@
+{
+  "style":"STYLE_TAB",
+  "slideData":[
+    {
+      "title":"Music",
+      "content": {
+        "type": "LIST_3_LINE_COVER",
+        "contentName": "musicList"
+      }
+    },
+    {
+      "title":"Favorite",
+      "content": {
+        "type": "LIST_ONE_LINE_COVER",
+        "contentName": "homeItems"
+      }
+    }
+  ]
+}

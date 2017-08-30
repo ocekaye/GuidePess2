@@ -1,0 +1,8 @@
+{
+  "type": "DETAIL_HEADER_IMAGE",
+  "imageCover": "banner_videos",
+  "content": {
+    "type": "HTML",
+    "contentName": "a"
+  }
+}

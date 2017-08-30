@@ -1,0 +1,38 @@
+{
+  "style":"STYLE_BUTTON",
+  "butonData": {
+    "content": {
+      "type": "LIST_ONE_LINE_COVER",
+      "contentName": "homeItems"
+    },
+    "buttons": [
+      {
+        "text":"More Apps",
+        "icon":"love_videos",
+        "link":"http//:blablablabl"
+      },
+      {
+        "text":"Rate Usss",
+        "icon":"love_videos",
+        "link":"http//:blablablabl"
+      }
+    ]
+  },
+  "slideData":[
+    {
+      "title":"Music",
+      "content": {
+        "type": "LIST_ONE_LINE_COVER",
+        "contentName": "homeItems"
+      }
+    },
+    {
+      "title":"Favorite",
+      "content": {
+        "type": "LIST_ONE_LINE_COVER",
+        "contentName": "homeItems"
+      }
+    }
+  ]
+
+}

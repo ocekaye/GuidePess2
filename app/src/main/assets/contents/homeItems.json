@@ -1,0 +1,41 @@
+{
+  "type": "LIST_ONE_LINE_COVER",
+  "data":[
+    {
+      "title":"lalaal",
+      "img": "icon_home",
+      "color": "#ff0000",
+      "childContent": {
+        "type": "DETAIL_HEADER_IMAGE",
+        "contentName": "itemDetails"
+      }
+    },
+    {
+      "title":"lilili",
+      "img": "cs",
+      "color": "#00ff00",
+      "childContent": {
+        "type": "DETAIL_HEADER_IMAGE",
+        "contentName": "itemDetails"
+      }
+    },
+    {
+      "title":"lululu",
+      "img": "cs",
+      "color": "#0000ff",
+      "childContent": {
+        "type": "DETAIL_HEADER_IMAGE",
+        "contentName": "itemDetails"
+      }
+    },
+    {
+      "title":"lellel",
+      "img": "cs",
+      "color": "#f0f0f0",
+      "childContent": {
+        "type": "DETAIL_HEADER_IMAGE",
+        "contentName": "itemDetails"
+      }
+    }
+  ]
+}

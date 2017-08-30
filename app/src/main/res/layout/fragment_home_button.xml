@@ -1,0 +1,61 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    app:layout_behavior="@string/appbar_scrolling_view_behavior">
+    <LinearLayout
+        android:id="@+id/topMenuBtn"
+        android:layout_width="match_parent"
+        android:layout_height="40dp"
+        android:background="@color/moreApp">
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:gravity="center"
+            android:layout_weight="1"
+            android:background="@color/moreApp">
+            <ImageView
+                android:id="@+id/img_icon_button_1"
+                android:layout_gravity="center"
+                android:layout_width="25dp"
+                android:layout_height="25dp"
+                android:scaleType="fitXY"
+                android:layout_marginRight="10dp"
+                android:src="@drawable/love_videos"/>
+            <TextView
+                android:id="@+id/txt_button_1"
+                android:layout_width="wrap_content"
+                android:layout_height="match_parent"
+                android:text="@string/more_app"
+                android:gravity="center" />
+        </LinearLayout>
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:gravity="center"
+            android:layout_weight="1"
+            android:background="@color/rateUs">
+            <ImageView
+                android:id="@+id/img_icon_button_2"
+                android:layout_gravity="center"
+                android:layout_width="25dp"
+                android:layout_height="25dp"
+                android:scaleType="fitXY"
+                android:layout_marginRight="10dp"
+                android:src="@drawable/love_videos"/>
+            <TextView
+                android:id="@+id/txt_button_2"
+                android:layout_width="wrap_content"
+                android:layout_height="match_parent"
+                android:text="@string/rate_us"
+                android:gravity="center"/>
+        </LinearLayout>
+    </LinearLayout>
+    <include android:layout_width="match_parent"
+        android:layout_below="@+id/topMenuBtn"
+        android:layout_height="wrap_content"
+        layout="@layout/content_scrolling" />
+</RelativeLayout>
